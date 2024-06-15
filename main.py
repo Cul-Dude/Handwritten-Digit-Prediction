@@ -18,13 +18,13 @@ tf.keras.utils.get_custom_objects().update({
 
 # Set working directory and model path
 working_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(working_dir, 'trained_fashion_mnist_model.h5')
+model_path = os.path.join(working_dir, 'mnist_model.h5')
 
 # Load the pre-trained model
 model = tf.keras.models.load_model(model_path, custom_objects={'SparseCategoricalCrossentropy': CustomSparseCategoricalCrossentropy})
 
 # Define class labels for Fashion MNIST dataset
-class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
+class_names = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
 # Function to preprocess the uploaded image
 def preprocess_image(image):
@@ -36,9 +36,9 @@ def preprocess_image(image):
     return img_array
 
 # Streamlit App
-st.title('Fashion Item Classifier')
+st.title('Digit Classifier')
 
-uploaded_image = st.file_uploader("Upload a Fashion MNIST image (Don't upload high quality images)", type=["jpg", "jpeg", "png"])
+uploaded_image = st.file_uploader("Upload the digit's image (Don't upload high quality images)", type=["jpg", "jpeg", "png"])
 
 if uploaded_image is not None:
     image = Image.open(uploaded_image)
