@@ -47,5 +47,5 @@ Our model achieves an impressive accuracy of 98% on the test dataset, showcasing
 I welcome contributions to enhance the project. If you have any ideas or suggestions, feel free to open an issue or submit a pull request.
 
 ## Acknowledgments
-This project utilizes the MNIST dataset, which is a standard benchmark dataset in the field of machine learning and computer vision. We would like to thank the creators of this dataset for making it publicly available.
+This project utilizes the MNIST dataset, which is a standard benchmark dataset in the field of machine learning and computer vision. I would like to thank the creators of this dataset for making it publicly available.
 
