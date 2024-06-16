@@ -21,7 +21,7 @@ Digitizing handwritten medical records and prescriptions to maintain accurate pa
 
 
 ## Project Highlights
-1) Importing necessary libraries and MNSIT Dataset: We used tensorflow, numpy, keras, to work with our dataset and make model's architechture. We used matplotlib and searborn to depict our model's progress and accuracy graphically.
+1) Importing necessary libraries and MNSIT Dataset: Used machine learning libraries tensorflow, numpy, keras, to work with our dataset and make model's architechture, used matplotlib and searborn to depict  model's progress and accuracy graphically.
 
 2) Data Preprocessing: Cleaned and preprocessed the MNIST dataset to ensure high-quality input for the model.
 
@@ -29,10 +29,10 @@ Digitizing handwritten medical records and prescriptions to maintain accurate pa
 
 4) Evaluation: Evaluated the model's performance using various metrics and visualized its predictions to understand its strengths and areas for improvement.
 
-5) Deployment: Provided a streamlined process for deploying the model using Flask, allowing for easy integration with web applications.
+5) Deployment: 
 
 ## Results and Performance
-Our model achieves an impressive accuracy of 98% on the test dataset, showcasing its ability to generalize well to unseen data. Detailed performance metrics and visualizations can be found in the accompanying Google Colab Notebook.
+The model achieves an impressive accuracy of 98% on the test dataset, showcasing its ability to generalize well to unseen data. Detailed performance metrics and visualizations can be found in the accompanying Google Colab Notebook.
 
 ## Future Work
 1) Enhancements: Experiment with different neural network architectures and hyperparameters to further improve the model's accuracy.
