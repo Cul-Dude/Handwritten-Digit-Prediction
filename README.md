@@ -29,10 +29,17 @@ Digitizing handwritten medical records and prescriptions to maintain accurate pa
 
 4) Evaluation: Evaluated the model's performance using various metrics and visualized its predictions to understand its strengths and areas for improvement.
 
-5) Deployment: 
 
 ## Results and Performance
 The model achieves an impressive accuracy of 98% on the test dataset, showcasing its ability to generalize well to unseen data. Detailed performance metrics and visualizations can be found in the accompanying Google Colab Notebook.
+
+![image](https://github.com/Cul-Dude/Handwritten-Digit-Prediction/assets/123399803/6d01c018-b89d-4c89-9316-7416700b8f87)  ![image](https://github.com/Cul-Dude/Handwritten-Digit-Prediction/assets/123399803/e88f9b49-b0e6-44f9-b65c-3bf596b0fd36)  ![image](https://github.com/Cul-Dude/Handwritten-Digit-Prediction/assets/123399803/7b5b38e1-fa8c-4a71-aa5c-4dde9b0ed05a)  ![image](https://github.com/Cul-Dude/Handwritten-Digit-Prediction/assets/123399803/762b2452-347a-4e63-8ada-212faf6a617e) ![image](https://github.com/Cul-Dude/Handwritten-Digit-Prediction/assets/123399803/544a3c83-70d9-4018-b459-455b010c8b2c)
+ ![image](https://github.com/Cul-Dude/Handwritten-Digit-Prediction/assets/123399803/f7b6cc2c-c9cc-4d1f-a09c-642384411d00)
+
+
+
+
+
 
 ## Future Work
 1) Enhancements: Experiment with different neural network architectures and hyperparameters to further improve the model's accuracy.
@@ -48,4 +55,7 @@ I welcome contributions to enhance the project. If you have any ideas or suggest
 
 ## Acknowledgments
 This project utilizes the MNIST dataset, which is a standard benchmark dataset in the field of machine learning and computer vision. I would like to thank the creators of this dataset for making it publicly available.
+
+
+
 
