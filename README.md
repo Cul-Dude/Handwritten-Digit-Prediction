@@ -1,7 +1,7 @@
-# Handwritten Digit Classification
+# HANDWRITTEN DIGIT CLASSIFICATION
 
 ## Overview
-This project focuses on building a robust machine learning model capable of recognizing handwritten digits from the famous MNIST dataset. Handwritten digit classification is a classic problem in the field of computer vision and pattern recognition, where the goal is to correctly classify digits (0-9) written in various styles by different individuals.
+This project focuses on building a robust machine-learning model capable of recognizing handwritten digits from the famous MNIST dataset. Handwritten digit classification is a classic problem in the field of computer vision and pattern recognition, where the goal is to correctly classify digits (0-9) written in various styles by different individuals.
 
 
 ## Problem Statement
